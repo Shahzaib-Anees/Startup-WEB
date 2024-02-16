@@ -1,5 +1,14 @@
 @media (min-width:200px) and (max-width:400px) {
 
+
+    .nav-contents {
+        width: 100%;
+        display: flex;
+        align-items: first baseline;
+        justify-content: space-between;
+        align-content: baseline;
+    }
+
     /* Nav Links  */
     .nav-logo>img {
         width: 60%;
@@ -11,9 +20,56 @@
 
     /* <!-- Mob Visibility Nav List  --> */
     .mob-visibility-nav-list {
-        display: inline-block;
+        width: 50%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
+    /* Hamburger Image Div  */
+    .hamburg-img {
+        border: 1px solid white;
+        width: fit-content;
+        padding: 0.5%;
+        text-align: center;
+    }
+
+    /* Hamburger Menu  */
+    .hamburg-menu {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        padding-bottom: 6%;
+        margin-top: 10%;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .hamburg-menu>.menu-items {
+        width: 90%;
+        border-bottom: 1px solid black;
+        margin-top: 4%;
+        padding: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-items>a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: var(--sec-font);
+    }
 
     /* Hero Section Styling  */
     .hero-sec1 {
@@ -218,12 +274,12 @@
         align-items: center;
     }
 
-    .foot-social-links{
+    .foot-social-links {
         width: 100%;
         padding: 4% 0%;
         margin-top: 12%;
         display: flex;
         align-items: center;
         justify-content: space-around;
-   }
+    }
 }

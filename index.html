@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start up|Home Page</title>
     <link rel="stylesheet" href="./Home.CSS">
-    <link rel="stylesheet" href="./Media Sheets/Home-Media.CSS">
+    <link rel="stylesheet" href="./Media Sheets/Home-Media.CSS">>
 </head>
 
 <body>
@@ -41,9 +41,30 @@
 
                         <!-- Mob Visibility Nav List  -->
                         <div class="mob-visibility-nav-list">
-                            <img src="./assests/HomePage-Images/nav-list-logo.png">
+                            <!-- Hamburger Image  -->
+                            <a class="hamburg-img" href="app.js:void(0)" onclick="myFunction()">
+                                <img src="./assests/HomePage-Images/nav-list-logo.png">
+                            </a>
+                            <!-- Hamburger Menu For Mobile -->
+                            <div class="hamburg-menu">
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./index.html">Home</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./Portfolio/index.html">Portfolio</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./Sevices/index.html">Services</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./Contacts/index.html">Contact US</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                 </article>
             </nav>
 
@@ -199,32 +220,42 @@
             </div>
         </section>
     </main>
-<footer>
-    <section id="foot-section">
-        <article class="footer-content">
-            <div class="foot-social-links">
-                <!-- Social Icon 1  -->
-                <img src="./assests/HomePage-Images/Fb-foot-logo.svg" alt="social-logo">
-                <!-- Social Icon 2  -->
-                <img src="./assests/HomePage-Images/Ins-Foot-logo.svg" alt="social-logo">
-                <!-- Social Icon 3  -->
-                <img src="./assests/HomePage-Images/twit-foot-logo.svg" alt="social-logo">
-                <!-- Social Icon 4  -->
-                <img src="./assests/HomePage-Images/Pin-Foot-Logo.svg" alt="social-logo">
-                <!-- Social Icon 5  -->
-                <img src="./assests/HomePage-Images/tt-foot-logo.svg" alt="social-logo">
-                <!-- Social Icon 6  -->
-                <img src="./assests/HomePage-Images/Whatsapp-foot-logo.svg" alt="social-logo">
-                <!-- Social Icon 7  -->
-                <img src="./assests/HomePage-Images/YT-foot-logo.svg" alt="social-logo">
-            </div>
+    <footer>
+        <section id="foot-section">
+            <article class="footer-content">
+                <div class="foot-social-links">
+                    <!-- Social Icon 1  -->
+                    <img src="./assests/HomePage-Images/Fb-foot-logo.svg" alt="social-logo">
+                    <!-- Social Icon 2  -->
+                    <img src="./assests/HomePage-Images/Ins-Foot-logo.svg" alt="social-logo">
+                    <!-- Social Icon 3  -->
+                    <img src="./assests/HomePage-Images/twit-foot-logo.svg" alt="social-logo">
+                    <!-- Social Icon 4  -->
+                    <img src="./assests/HomePage-Images/Pin-Foot-Logo.svg" alt="social-logo">
+                    <!-- Social Icon 5  -->
+                    <img src="./assests/HomePage-Images/tt-foot-logo.svg" alt="social-logo">
+                    <!-- Social Icon 6  -->
+                    <img src="./assests/HomePage-Images/Whatsapp-foot-logo.svg" alt="social-logo">
+                    <!-- Social Icon 7  -->
+                    <img src="./assests/HomePage-Images/YT-foot-logo.svg" alt="social-logo">
+                </div>
 
-            <div class="foot-end">
-                <p>&copy;Start, 2022. All rights reserved.</p>
-            </div>
-        </article>
-    </section>
-</footer>
+                <div class="foot-end">
+                    <p>&copy;Start, 2022. All rights reserved.</p>
+                </div>
+            </article>
+        </section>
+    </footer>
 </body>
-
+<script>
+    function myFunction(){
+    let x=document.querySelectorAll("hamburg-menu");
+    if(x.style.display == "none"){
+        x.style.display="block"
+    }
+    else{
+        x.style.display="none"
+    }
+}
+</script>
 </html>

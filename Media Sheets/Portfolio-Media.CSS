@@ -1,0 +1,28 @@
+@media (min-width:200px) and (max-width:400px) {
+
+    /* Portfolio Section 1  Content */
+    .portfolio-sec1-content {
+        margin-top: 4%;
+    }
+    /* portfolio Header  */
+    .portfolio-sec1-header {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .portfolio-sec1-header>span {
+        font-size: 1.1rem;
+    }
+
+    .portfolio-sec1-header>h3 {
+        font-size: 1.5rem;
+    }
+    .portfolio-sec1-header>P{
+        font-size: 1.3rem;
+    }
+
+    /* Portfolio Image Wrapper  */
+    .protfolio-image-wrapper>img{
+        width: 100%;
+    }
+}
