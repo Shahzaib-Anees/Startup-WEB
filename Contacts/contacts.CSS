@@ -1,0 +1,128 @@
+/* Primary font  */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* Secondary font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --pri-color: #74C69D;
+    --pri-font: 'Crimson Text';
+    --sec-font: 'Work Sans';
+}
+
+/* Contact aoge Section 1 Stylings  */
+#contact-sec1 {
+    width: 100%;
+    padding: 2% 8%;
+}
+
+/* Contact Section 1 Content  */
+.contact-sec-1-content {
+    width: 100%;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contact Section 1 Header  */
+.contact-sec1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-sec1-header>h3 {
+    margin: 0%;
+    font-size: 3rem;
+    font-family: var(--pri-font);
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.contact-sec1-header>p {
+    width: 80%;
+    margin: 0%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: var(--sec-font);
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Contact Section 1 Main Container  */
+.contact-sec1-main-container {
+    width: 100%;
+    padding: 2% 0%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Contact Section Form Styling  */
+.contact-sec--form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Contact Section Form  */
+.forms-elements {
+    width: 100%;
+}
+
+.forms-elements>h3 {
+    margin: 1% 0%;
+    color: #212529;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: var(--sec-font);
+}
+
+
+.forms-elements>input {
+    width: 100%;
+    height: 8vh;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+/* Submit Button Styling  */
+#submit-btn {
+    width: 100%;
+    padding: 2% 0%;
+    border-radius: 5px;
+    background-color: #212529;
+    color: #fff;
+}
+
+#submit-btn>input {
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: var(--sec-font);
+    font-weight: 700;
+}
+
+/* Contact section Image  */
+.contact-sec-image {
+    width: 49%;
+}
+.contact-sec-image>img{
+    width: 100%;
+}

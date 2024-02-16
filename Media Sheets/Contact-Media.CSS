@@ -1,0 +1,47 @@
+@media (min-width:200px) and (max-width:400px) {
+
+    /* Contact Section 1 Header  */
+    .contact-sec1-header>h3 {
+        font-size: 2.5rem;
+    }
+
+    .contact-sec1-header>p {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    /* Contact Section 1 Main Container  */
+    .contact-sec1-main-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6%;
+    }
+
+    /* Contact Section Form Styling  */
+    .contact-sec--form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        order: 2;
+    }
+
+    .forms-elements>h3 {
+        font-size: 1.3rem;
+    }
+
+
+    .forms-elements>input {
+        width: 100%;
+        height: 5vh;
+    }
+
+    /* Contact section Image  */
+    .contact-sec-image {
+        width: 100%;
+    }
+
+    .contact-sec-image>img {
+        width: 100%;
+    }
+}
