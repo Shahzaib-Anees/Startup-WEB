@@ -1,0 +1,43 @@
+@media (min-width:200px) and (max-width:400px) {
+
+    /* Services Section 1  Content */
+    .services-sec1-content {
+        margin-top: 4%;
+    }
+
+    /* portfolio Header  */
+    .services-sec1-header {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .services-sec1-header>span {
+        font-size: 1.1rem;
+    }
+
+    .services-sec1-header>h3 {
+        font-size: 1.5rem;
+    }
+
+    .services-sec1-header>P {
+        font-size: 1.3rem;
+    }
+
+    /* Services Plans Styling  */
+    .services-plans {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin:4% 0%;
+        margin-bottom: 13%;
+    }
+
+    /* Plan Content Box  */
+    /* Plans Details  */
+    .plans-details {
+        width: 100%;
+        padding: 3% 4%;
+        padding-bottom: 6%;
+    }
+}
