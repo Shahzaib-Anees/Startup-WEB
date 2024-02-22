@@ -42,11 +42,11 @@
                         <!-- Mob Visibility Nav List  -->
                         <div class="mob-visibility-nav-list">
                             <!-- Hamburger Image  -->
-                            <a class="hamburg-img" href="app.js:void(0)" onclick="myFunction()">
+                            <a class="hamburg-img" onclick="myFunction()">
                                 <img src="./assests/HomePage-Images/nav-list-logo.png">
                             </a>
                             <!-- Hamburger Menu For Mobile -->
-                            <div class="hamburg-menu">
+                            <div class="hamburg-menu" id="mob-menu">
                                 <!-- Menu Items  -->
                                 <div class="menu-items">
                                     <a href="./index.html">Home</a>
@@ -249,7 +249,7 @@
 </body>
 <script>
     function myFunction(){
-    let x=document.querySelectorAll("hamburg-menu");
+    let x=document.getElementById("mob-menu")
     if(x.style.display == "none"){
         x.style.display="block"
     }

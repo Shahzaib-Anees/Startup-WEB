@@ -44,9 +44,31 @@
                             </ul>
                         </div>
 
-                        <!-- Mob Visibility Nav List  -->
-                        <div class="mob-visibility-nav-list">
-                            <img src="./../assests/HomePage-Images/nav-list-logo.png">
+                         <!-- Mob Visibility Nav List  -->
+                         <div class="mob-visibility-nav-list">
+                            <!-- Hamburger Image  -->
+                            <a class="hamburg-img" onclick="myFunction()">
+                                <img src="./../assests/HomePage-Images/nav-list-logo.png">
+                            </a>
+                            <!-- Hamburger Menu For Mobile -->
+                            <div class="hamburg-menu" id="mob-menu">
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../index.html">Home</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./index.html">Portfolio</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../Sevices/index.html">Services</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../Contacts/index.html">Contact US</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -240,5 +262,15 @@
         </section>
     </footer>
 </body>
-
+<script>
+     function myFunction(){
+    let x=document.getElementById("mob-menu")
+    if(x.style.display == "none"){
+        x.style.display="block"
+    }
+    else{
+        x.style.display="none"
+    }
+}
+</script>
 </html>

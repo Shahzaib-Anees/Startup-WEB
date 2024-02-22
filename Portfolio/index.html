@@ -44,7 +44,29 @@
 
                         <!-- Mob Visibility Nav List  -->
                         <div class="mob-visibility-nav-list">
-                            <img src="./../assests/HomePage-Images/nav-list-logo.png">
+                            <!-- Hamburger Image  -->
+                            <a class="hamburg-img" onclick="myFunction()">
+                                <img src="./../assests/HomePage-Images/nav-list-logo.png">
+                            </a>
+                            <!-- Hamburger Menu For Mobile -->
+                            <div class="hamburg-menu" id="mob-menu">
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../index.html">Home</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./index.html">Portfolio</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../Sevices/index.html">Services</a>
+                                </div>
+                                <!-- Menu Items  -->
+                                <div class="menu-items">
+                                    <a href="./../Contacts/index.html">Contact US</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -54,36 +76,36 @@
     <!-- Main Section  -->
     <main>
         <section id="portfolio-sec1">
-           <article class="portfolio-sec1-content">
-               <div class="portfolio-sec1-header">
-                <span>Works</span>
-                <h3>Portfolio</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-               </div>
+            <article class="portfolio-sec1-content">
+                <div class="portfolio-sec1-header">
+                    <span>Works</span>
+                    <h3>Portfolio</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                </div>
 
-               <div class="protfolio-image-wrapper">
-                <!-- Image 1  -->
-                <img src="./../assests/portfolioPage-Images/frame1.svg" alt="image">
-                <!-- Image 2  -->
-                <img src="./../assests/portfolioPage-Images/frame2.svg" alt="image">
-                <!-- Image 3  -->
-                <img src="./../assests/portfolioPage-Images/frame3.svg" alt="image">
-                <!-- Image 4  -->
-                <img src="./../assests/portfolioPage-Images/frame4.svg" alt="image">
-                <!-- Image 5  -->
-                <img src="./../assests/portfolioPage-Images/frame5.svg" alt="image">
-                <!-- Image 6  -->
-                <img src="./../assests/portfolioPage-Images/frame6.svg" alt="image">
-                <!-- Image 7  -->
-                <img src="./../assests/portfolioPage-Images/frame7.svg" alt="image">
-                <!-- Image 8  -->
-                <img src="./../assests/portfolioPage-Images/frame8.svg" alt="image">
-               </div>
-               <!-- Portfolio Content Learn more Button  -->
-               <article class="portfolio-content-button">
-                <div class="portfolio-button">Learn More</div>
-               </article>
-           </article>
+                <div class="protfolio-image-wrapper">
+                    <!-- Image 1  -->
+                    <img src="./../assests/portfolioPage-Images/frame1.svg" alt="image">
+                    <!-- Image 2  -->
+                    <img src="./../assests/portfolioPage-Images/frame2.svg" alt="image">
+                    <!-- Image 3  -->
+                    <img src="./../assests/portfolioPage-Images/frame3.svg" alt="image">
+                    <!-- Image 4  -->
+                    <img src="./../assests/portfolioPage-Images/frame4.svg" alt="image">
+                    <!-- Image 5  -->
+                    <img src="./../assests/portfolioPage-Images/frame5.svg" alt="image">
+                    <!-- Image 6  -->
+                    <img src="./../assests/portfolioPage-Images/frame6.svg" alt="image">
+                    <!-- Image 7  -->
+                    <img src="./../assests/portfolioPage-Images/frame7.svg" alt="image">
+                    <!-- Image 8  -->
+                    <img src="./../assests/portfolioPage-Images/frame8.svg" alt="image">
+                </div>
+                <!-- Portfolio Content Learn more Button  -->
+                <article class="portfolio-content-button">
+                    <div class="portfolio-button">Learn More</div>
+                </article>
+            </article>
         </section>
     </main>
     <!-- Footer Section  -->
@@ -114,5 +136,16 @@
         </section>
     </footer>
 </body>
+<script>
 
+    function myFunction(){
+        let x=document.getElementById("mob-menu")
+    if(x.style.display == "none"){
+        x.style.display="block"
+    }
+    else{
+        x.style.display="none"
+    }
+}
+</script>
 </html>
