@@ -76,7 +76,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     padding: 2% 0%;
 }
 
@@ -84,7 +85,7 @@ body {
 /* Plans Details  */
 .plans-details {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 28%;
+    width: 34%;
     padding: 3% 2%;
     border-radius: 10px;
 }
@@ -94,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap:30px;
 }
 
 /* Plan Header  */
